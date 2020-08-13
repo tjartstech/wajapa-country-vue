@@ -1,19 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header />
+    <WajapaCountry msg="Welcome to Wajapa Countries" />
+
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col sm="6" offset-3>
+          <Cscdisplay msg="Selected Country" />
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header.vue";
+import WajapaCountry from "./components/WajapaCountry.vue";
+import Cscdisplay from "./components/Cscdisplay.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Header,
+    WajapaCountry,
+    Cscdisplay,
+  },
+};
 </script>
 
 <style>
