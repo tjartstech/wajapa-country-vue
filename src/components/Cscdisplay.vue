@@ -1,6 +1,5 @@
 <template>
   <div class="column-6">
-    <h1>{{ msg }}</h1>
     <div class="selected-options">
       <p v-if="selectedCountry">
         <span class="s-o">Country :</span>
@@ -24,7 +23,8 @@
 
 <script>
 export default {
-  name: "Cscdisplay",
+  name: "cscdisplay",
+
   props: {
     msg: String,
   },

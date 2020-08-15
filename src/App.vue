@@ -1,28 +1,22 @@
 <template>
   <div id="app">
     <Header />
-    <WajapaCountry msg="Welcome to Wajapa Countries" />
+    <Wajapacountries msg="Welcome to Wajapa Countries" />
 
-    <b-container class="bv-example-row">
-      <b-row>
-        <b-col sm="6" offset-3>
-          <Cscdisplay msg="Selected Country" />
-        </b-col>
-      </b-row>
-    </b-container>
+    <Cscdisplay />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-import WajapaCountry from "./components/WajapaCountry.vue";
+import Wajapacountries from "./components/Wajapacountries.vue";
 import Cscdisplay from "./components/Cscdisplay.vue";
 
 export default {
   name: "App",
   components: {
     Header,
-    WajapaCountry,
+    Wajapacountries,
     Cscdisplay,
   },
 };

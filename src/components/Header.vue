@@ -1,9 +1,10 @@
 <template>
-  <div>
-    <b-nav>
-      <b-nav-item>
-        <b>Wajapa Counttries</b>
-      </b-nav-item>
-    </b-nav>
+  <!-- Nav -->
+  <div class="nav">
+    <a href>
+      <!-- <img src="../assets/logo.png" class="logo" /> -->
+    </a>
   </div>
 </template>
+
+
